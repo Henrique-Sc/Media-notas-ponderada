@@ -30,14 +30,15 @@
 			var media = ((nota1 * 0.2) + (nota2 * 0.3) + (nota3 * 0.5))
 
 			document.getElementById('result').style.visibility = 'visible'
-			document.getElementById('mostrarNome').innerHTML = "Nome: " + nome;
+			document.getElementById('mostrarNome').innerHTML = 'Nome: ' + nome;
+			document.getElementById('mostrarMedia').innerHTML = 'Média: ' + media;
 		}
 	</script>
 </head>
 <body>
 	<h2>Exercício 03 - Média de notas (ponderada)</h2>
 
-	<form>
+	<form autocomplete="off">
 		<label for="nome">Nome: </label>
 		<input type="text" id="nome" style="margin-left: 10px">
 		<br><br>
