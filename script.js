@@ -9,4 +9,5 @@ function media() {
   document.getElementById('result').style.visibility = 'visible'
   document.getElementById('mostrarNome').innerHTML = 'Nome: ' + nome;
   document.getElementById('mostrarMedia').innerHTML = 'Média: ' + media.toFixed(2);
+
 }
